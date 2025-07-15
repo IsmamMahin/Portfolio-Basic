@@ -213,7 +213,7 @@ section {
     color: #ffffff;
 }
 
-.project-grid {
+.project-layout {
     display: flex;
     gap: 30px;
     justify-content: center;
@@ -221,6 +221,8 @@ section {
 }
 
 .project-card {
+    width: 650px;
+    height: 250px;
     background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
