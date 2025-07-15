@@ -1,81 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <!--For font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-
-    <!--For icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-</head>
-<body>
-    <!--Navbar-->
-    <nav>
-        <div class="left">
-            <a href="#home">
-                <img src="https://images-platform.99static.com/zyGMRHflv2UltX6TmMzLnM5QvMc=/200x200:1800x1800/500x500/top/smart/99designs-contests-attachments/131/131244/attachment_131244073" alt="logo">
-                <span>My Porfolio</span>
-            </a>
-        </div>
-        <div class="right">
-            <!-- <img src="" alt="skill"> -->
-            <i class="fa-solid fa-code"></i>
-        </div>
-    </nav>
-
-    <!-- Main section -->
-
-    <main>
-        <!-- Hero section -->
-        <section class="hero">
-            <div class="hero-text">
-                <h1>Hi, I'm <span>Ismam</span></h1>
-                <h3>Welcome to my porfolio</h3>
-                <p>I'm a web developer</p>
-
-                <div class="links">
-                    <a href="#">
-                        <i class="fa-brands fa-github"></i>
-                        <span>Github</span>
-                    </a>
-                    <a href="#">
-                        <i class="fa-brands fa-facebook"></i>
-                        <span>Facebook</span>
-                    </a>
-                    <a href="#">
-                        <i class="fa-brands fa-twitter"></i>
-                        <span>Twitter</span>
-                    </a>
-                    <a href="#">
-                        <i class="fa-brands fa-linkedin"></i>
-                        <span>LinkdIn</span>
-                    </a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        
+        <!-- For front -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
+        <!-- icon -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        >
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <!-- nav -->
+        <nav>
+            <div class="left">
+                <a href="#home">
+                    <img src="./images/logo.png" alt="logo">
+                    <span>My Portfolio</span>
+                </a>
+            </div>
+            <div class="right">
+                <a href="#skills" class="active">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Skills</span>
+                </a>
+                <a href="#projects">
+                    <i class="fa-solid fa-pen"></i>
+                    <span>Projects</span>
+                </a>
+                <a href="#contact">
+                    <i class="fa-solid fa-address-book"></i>
+                    <span>Contact</span>
+                </a>
+            </div>
+        </nav>
+        <!-- main section -->
+        <main>
+            <!-- hero section -->
+            <section class="hero">
+                <div class="hero-text">
+                    <h1>Hi, I'm <strong>Ismam Ahnaf Mahin</strong></h1>
+                    <h3>Welcome to My Portfolio</h3>
+                    <p>
+                        I am a Computer Science student who is a tech savvy and enjoys to learn new stuff everyday ^w^
+                    </p>
+                    <div class="links">
+                        <a href="http://github.com/naimurrahman" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="http://linkedin.com/in/naimurrahman" target="_blank    ">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="http://twitter.com/naimurrahman" target="_blank">
+                            <i class="fa-brands fa-twitter"></i>
+                            <span>Twitter</span>
+                        </a>
+                        <a href="http://facebook.com/naimurrahman" target="_blank">
+                            <i class="fa-brands fa-facebook"></i>
+                            <span>Facebook</span>
+                        </a>
+                    </div>
                 </div>
-
-                <div class="headShot">
-                    <img src="images/headshot.png" alt="my image">
+                <div class="headshot">
+                    <img src="images/hero-img.png" alt="hero image">
                 </div>
-            </div>
-        </section>
+            </section>
+            <!-- Skills section -->
+            <section class="skills-section">
+                <h2>Skills</h2>
+                <div class="text">
+                    Here are some of the key technologies and tools I use to bring projects to life:
+                </div>
+                <div class="cells">
+                    <div class="cell">
+                        <img src="images/html-logo.png" alt="html logo">
+                        <span>HTML</span>
+                    </div>
+                    <div class="cell">
+                        <img src="images/css-logo.png" alt="css logo">
+                        <span>CSS</span>
+                    </div>
+                    <div class="cell">
+                        <img src="images/javascript-logo.png" alt="js logo">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="cell">
+                        <img src="images/react-logo.png" alt="react logo">
+                        <span>ReactJS</span>
+                    </div>
+                </div>
+            </section>
+            <!-- Projects Section -->
+            <section class="projects-section" id="projects">
+                <h2>My Projects</h2>
+                <div class="project-grid">
+                    <!-- Project Card 1 -->
+                    <div class="project-card">
+                        <div class="card-content">
+                            <h3>Fast Food Ordering System</h3>
+                            <p>It is a project for my CSE115 lab course in university. This project showcases my skills in [C].</p>
+                            <div class="card-links">
+                                <a href="#" target="_blank"><i class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
+                                <a href="#" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
 
-        <!-- Skill Section -->
+                    <!-- Project Card 2 -->
+                    <div class="project-card">
+                        <div class="card-content">
+                            <h3>Contact Book Management System</h3>
+                            <p>It is a project for Ostad online web development course using Python-Djanjgo</p>
+                            <div class="card-links">
+                                <a href="#" target="_blank"><i class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
+                                <a href="#" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
 
-        <section class="skills">
-            <h1>skills</h1>
-            <div class="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quas incidunt molestiae minus aliquam fugiat iure saepe doloribus ea, explicabo vel. A veniam corporis, cupiditate nesciunt saepe ea beatae nam?
-            </div>
-            <div class="cells">
-                <i class="fa-brands fa-html5"></i>
-                <span>HTML</span>
-            </div>
-        </section>
-    </main>
-</body>
+                    <!-- Project Card 3 -->
+                    <div class="project-card">
+                        <div class="card-content">
+                            <h3>Project Title Two</h3>
+                            <p>This is Project Two, focusing on [mention technologies/skills]. It was a challenging but rewarding experience.</p>
+                            <div class="card-links">
+                                <a href="#" target="_blank"><i class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
+                                <a href="#" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Contact section -->
+            <section id="contact" class="contact-section">
+                <h2>Contact</h2>
+                <div class="group">
+                    <div class="text">
+                        Have a project in mind or just want to say hi? I'd love to hear from you. Feel free to reach out through the form below!
+                    </div>
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your name">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Your email">
+                        <label for="message">Message</label>
+                        <textarea
+                            name="message"
+                            id="message"
+                            cols="30"
+                            rows="10"
+                            placeholder="Your message"
+                        ></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </section>
+            <footer>
+                <p>&copy; 2025  All Rights Reserved</p>
+            </footer>
+        </main>
+    </body>
 </html>
